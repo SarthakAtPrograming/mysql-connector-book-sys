@@ -1,8 +1,8 @@
 import mysql.connector
 def connect_to_server():
     return mysql.connector.connect(
-        user="root",
-        password="9693",
+        user="****",
+        password="****",
         host="localhost")
 def create_database():
     conn = connect_to_server()
